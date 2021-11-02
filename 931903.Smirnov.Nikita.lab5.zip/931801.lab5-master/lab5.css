@@ -1,0 +1,60 @@
+        html
+        {
+            font-family: Helvetica;
+            font-size: 14px;
+        }
+        .big
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .small
+        {
+            background-color: #b6f5f5;
+            width: 750px;
+            height: 100px;
+            box-shadow: 0 0 5px black;
+            border-bottom: 3px solid black;
+            padding: 15px;
+        }
+        .small:hover
+        {
+            background-color: #ff5555;
+        }
+        .small > header
+        {
+            font-size: 19px;
+            margin-bottom: 5px;
+        }
+        .small > button
+        {
+            background: -webkit-gradient(linear, 0 0, 0 100%, from(#00e100), to(#009500));
+            color: white;
+            text-align: center;
+            margin-left: 270px;
+            margin-bottom: 0;
+            margin-top: 10px;
+            height: 30px;
+            border: none;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+        }
+        dialog
+        {
+            width: 430px;
+            background-color: #e1ff73;
+            border: none;
+            padding-right: 25px;
+            padding-bottom: 5px;
+        }
+        dialog > h1
+        {
+            text-align: center;
+            margin-top: 0px;
+            margin-bottom: 35px;
+        }
+        dialog::backdrop
+        {
+             background-color: rgba(255, 255, 255, 0.8);
+        }
